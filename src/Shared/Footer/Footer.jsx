@@ -12,7 +12,7 @@ const Footer = () => {
     return (
         <div className='bg-[#000000] text-[#A5A5A5] mt-24'>
             <div>
-                <footer className="flex items-start  justify-between max-w-[1200px] mx-auto px-4 py-16 ">
+                <footer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-[1200px] mx-auto px-4 py-16 ">
                     <aside>
                         <img src={logo} alt="" />
                         <p className='my-5'>
@@ -57,7 +57,7 @@ const Footer = () => {
                 </footer>
                 <footer className="footer sm:footer-horizontal footer-center bg-[#000000] text-[#A5A5A5] border-t border-[#A5A5A5] py-6 px-4 shadow">
                     <aside>
-                        <p>Copyright © {new Date().getFullYear()} - Tweet. All Rights Reserved</p>
+                        <p>Copyright © {new Date().getFullYear()} - Tweet. All Rights Reservede</p>
                     </aside>
                 </footer>
             </div>
