@@ -9,11 +9,18 @@ import { LiaStampSolid } from "react-icons/lia";
 import { IoIosHelpCircleOutline } from "react-icons/io";
 import { CiSettings } from "react-icons/ci";
 import { IoLogOutOutline } from "react-icons/io5";
+import Swal from 'sweetalert2';
 
 
 const Profile = () => {
 
-
+    const handleLogOut = () => {
+        Swal.fire({
+            title: "Log out successfully !",
+            icon: "success",
+            draggable: true
+        });
+    }
 
     return (
         <div>
@@ -41,22 +48,22 @@ const Profile = () => {
                         </div>
                         <ul className="menu p-4  mt-24  text-[#5C5C5C] ">
                             <li className=''>
-                                <Link to={"/profile/myProfile"}><FaRegUserCircle/> My Profile</Link>
+                                <Link to={"/profile/myProfile"}><FaRegUserCircle /> My Profile</Link>
                             </li>
                             <li>
-                                <Link ><RiShoppingBag3Line/> Order</Link>
+                                <Link to={"/profile/order"}><RiShoppingBag3Line /> Order</Link>
                             </li>
                             <li>
-                                <Link > <LiaStampSolid/> StampCard</Link>
+                                <Link to={"/profile/stampCard"}> <LiaStampSolid /> StampCard</Link>
                             </li>
                             <li>
-                                <Link ><IoIosHelpCircleOutline/> Help</Link>
+                                <Link to={"/profile/help"}><IoIosHelpCircleOutline /> Help</Link>
                             </li>
                             <li>
-                                <Link ><CiSettings/> Setting</Link>
+                                <Link to={"/profile/setting"}><CiSettings /> Setting</Link>
                             </li>
                             <li>
-                                <Link ><IoLogOutOutline/> Logout</Link>
+                                <Link onClick={handleLogOut}><IoLogOutOutline /> Logout</Link>
                             </li>
                         </ul>
                     </div>
