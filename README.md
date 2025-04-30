@@ -2,7 +2,6 @@
 
 Welcome to **Tweet**, a modern and visually appealing frontend-only food delivery homepage built with **React**, **Tailwind CSS**, **DaisyUI**, and other essential **npm packages**. This project serves as a landing page for a food delivery service, allowing users to explore popular food categories, nearby restaurants, and customer testimonials.
 
-![Tweet Homepage](./assets/screenshot.jpg)
 
 > 🔗 **Live Demo:** [https://tweet-food-delivery.netlify.app/](https://tweet-food-delivery.netlify.app/)
 
