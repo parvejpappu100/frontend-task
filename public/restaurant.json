@@ -1,0 +1,90 @@
+[
+  {
+    "_id": "1",
+    "image": "https://i.ibb.co.com/XkSmFkLw/Rburger.png",
+    "reviews": "85",
+    "ratings": "4.6",
+    "restaurant_name": "Burger King",
+    "discount": 25,
+    "delivery_time": "20-30 min",
+    "delivery_fee": 2,
+    "items": "Pizza | Burger | Pasta | Chicken Fry"
+  },
+  {
+    "_id": "2",
+    "image": "https://i.ibb.co.com/Wdb7SvN/R.png",
+    "reviews": "85",
+    "ratings": "4.6",
+    "restaurant_name": "Vienna's Delight",
+    "discount": 25,
+    "delivery_time": "20-30 min",
+    "delivery_fee": 2,
+    "items": "Pizza | Burger | Pasta | Chicken Fry"
+  },
+  {
+    "_id": "3",
+    "image": "https://i.ibb.co.com/tPh4V7sM/Rpasta.png",
+    "reviews": "85",
+    "ratings": "4.6",
+    "restaurant_name": "AlpenFlair Bistro",
+    "discount": 25,
+    "delivery_time": "20-30 min",
+    "delivery_fee": 2,
+    "items": "Pizza | Burger | Pasta | Chicken Fry"
+  },
+  {
+    "_id": "4",
+    "image": "https://i.ibb.co.com/rfw2cdCv/Rpizza.png",
+    "reviews": "85",
+    "ratings": "4.6",
+    "restaurant_name": "Mozart's Table",
+    "discount": 25,
+    "delivery_time": "20-30 min",
+    "delivery_fee": 2,
+    "items": "Pizza | Burger | Pasta | Chicken Fry"
+  },
+  {
+    "_id": "5",
+    "image": "https://i.ibb.co.com/XkSmFkLw/Rburger.png",
+    "reviews": "85",
+    "ratings": "4.6",
+    "restaurant_name": "Burger King",
+    "discount": 25,
+    "delivery_time": "20-30 min",
+    "delivery_fee": 2,
+    "items": "Pizza | Burger | Pasta | Chicken Fry"
+  },
+  {
+    "_id": "6",
+    "image": "https://i.ibb.co.com/Wdb7SvN/R.png",
+    "reviews": "85",
+    "ratings": "4.6",
+    "restaurant_name": "Vienna's Delight",
+    "discount": 25,
+    "delivery_time": "20-30 min",
+    "delivery_fee": 2,
+    "items": "Pizza | Burger | Pasta | Chicken Fry"
+  },
+  {
+    "_id": "7",
+    "image": "https://i.ibb.co.com/tPh4V7sM/Rpasta.png",
+    "reviews": "85",
+    "ratings": "4.6",
+    "restaurant_name": "AlpenFlair Bistro",
+    "discount": 25,
+    "delivery_time": "20-30 min",
+    "delivery_fee": 2,
+    "items": "Pizza | Burger | Pasta | Chicken Fry"
+  },
+  {
+    "_id": "8",
+    "image": "https://i.ibb.co.com/rfw2cdCv/Rpizza.png",
+    "reviews": "85",
+    "ratings": "4.6",
+    "restaurant_name": "Mozart's Table",
+    "discount": 25,
+    "delivery_time": "20-30 min",
+    "delivery_fee": 2,
+    "items": "Pizza | Burger | Pasta | Chicken Fry"
+  }
+]
