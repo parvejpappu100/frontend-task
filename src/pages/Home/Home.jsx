@@ -3,6 +3,7 @@ import HeaderBanner from '../../components/HeaderBanner/HeaderBanner';
 import PopularCategory from '../../components/PopularCategory/PopularCategory';
 import PopularFood from '../../components/PopularFood/PopularFood';
 import PopularRestaurant from '../../components/PopularRestaurant/PopularRestaurant';
+import Testimonial from '../../components/Testimonial/Testimonial';
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
                 <PopularCategory></PopularCategory>
                 <PopularFood></PopularFood>
                 <PopularRestaurant></PopularRestaurant>
+                <Testimonial></Testimonial>
             </div>
         </div>
     );

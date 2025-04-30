@@ -1,0 +1,42 @@
+[
+    {
+        "_id": "1",
+        "name": "Leon Fischer",
+        "title": "Satisfied Client",
+        "rating": 4.8,
+        "image": "https://i.ibb.co.com/twBbw0LL/Ellipse-92.png",
+        "review": "Love the convenience of Tweet! Fast, reliable, and super easy to use for all your food delivery cravings."
+    },
+    {
+        "_id": "2",
+        "name": "Jon Doe",
+        "title": "Satisfied Client",
+        "rating": 3,
+        "image": "https://i.ibb.co.com/twBbw0LL/Ellipse-92.png",
+        "review": "Love the convenience of Tweet! Fast, reliable, and super easy to use for all your food delivery cravings."
+    },
+    {
+        "_id": "3",
+        "name": "Leon Gastugi",
+        "title": "Satisfied Client",
+        "rating": 4,
+        "image": "https://i.ibb.co.com/twBbw0LL/Ellipse-92.png",
+        "review": "Love the convenience of Tweet! Fast, reliable, and super easy to use for all your food delivery cravings."
+    },
+    {
+        "_id": "14",
+        "name": "Leon Rudigar",
+        "title": "Satisfied Client",
+        "rating": 4.5,
+        "image": "https://i.ibb.co.com/twBbw0LL/Ellipse-92.png",
+        "review": "Love the convenience of Tweet! Fast, reliable, and super easy to use for all your food delivery cravings."
+    },
+    {
+        "_id": "144",
+        "name": "Leon Doe",
+        "title": "Satisfied Client",
+        "rating": 4.2,
+        "image": "https://i.ibb.co.com/twBbw0LL/Ellipse-92.png",
+        "review": "Love the convenience of Tweet! Fast, reliable, and super easy to use for all your food delivery cravings."
+    }
+]
