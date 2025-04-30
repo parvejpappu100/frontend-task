@@ -7,11 +7,13 @@ import Order from "../pages/Dashboard/Order/Order";
 import StampCard from "../pages/Dashboard/StampCard/StampCard";
 import Help from "../pages/Dashboard/Help/Help";
 import Setting from "../pages/Dashboard/Setting/Setting";
+import ErrorPage from "../components/ErrorPage/ErrorPage";
 
 const router = createBrowserRouter([
     {
         path: "/",
         element: <Main></Main>,
+        errorElement: <ErrorPage></ErrorPage>,
         children: [
             {
                 path: "/",
