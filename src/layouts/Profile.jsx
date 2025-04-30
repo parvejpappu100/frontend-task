@@ -10,6 +10,7 @@ import { IoIosHelpCircleOutline } from "react-icons/io";
 import { CiSettings } from "react-icons/ci";
 import { IoLogOutOutline } from "react-icons/io5";
 import Swal from 'sweetalert2';
+import ActiveLink from '../components/ActiveLink/ActiveLink';
 
 
 const Profile = () => {
@@ -48,19 +49,19 @@ const Profile = () => {
                         </div>
                         <ul className="menu p-4  mt-24  text-[#5C5C5C] ">
                             <li className=''>
-                                <Link to={"/profile/myProfile"}><FaRegUserCircle /> My Profile</Link>
+                                <ActiveLink to={"/profile/myProfile"}><FaRegUserCircle /> My Profile</ActiveLink>
                             </li>
                             <li>
-                                <Link to={"/profile/order"}><RiShoppingBag3Line /> Order</Link>
+                                <ActiveLink to={"/profile/order"}><RiShoppingBag3Line /> Order</ActiveLink>
                             </li>
                             <li>
-                                <Link to={"/profile/stampCard"}> <LiaStampSolid /> StampCard</Link>
+                                <ActiveLink to={"/profile/stampCard"}> <LiaStampSolid /> StampCard</ActiveLink>
                             </li>
                             <li>
-                                <Link to={"/profile/help"}><IoIosHelpCircleOutline /> Help</Link>
+                                <ActiveLink to={"/profile/help"}><IoIosHelpCircleOutline /> Help</ActiveLink>
                             </li>
                             <li>
-                                <Link to={"/profile/setting"}><CiSettings /> Setting</Link>
+                                <ActiveLink to={"/profile/setting"}><CiSettings /> Setting</ActiveLink>
                             </li>
                             <li>
                                 <Link onClick={handleLogOut}><IoLogOutOutline /> Logout</Link>
