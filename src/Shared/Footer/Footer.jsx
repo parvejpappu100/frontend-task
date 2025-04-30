@@ -10,7 +10,7 @@ import { FaTelegramPlane } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <div className='bg-[#000000] text-[#A5A5A5] mt-24'>
+        <div className='bg-[#000000] text-[#A5A5A5] '>
             <div>
                 <footer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-[1200px] mx-auto px-4 py-16 ">
                     <aside>

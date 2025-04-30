@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from "../../assets/logo.png";
 import profile from "../../assets/profile.png";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -13,9 +14,9 @@ const Header = () => {
                     <div>
                         <img src={logo} alt="" />
                     </div>
-                    <div>
+                    <Link to={"/profile"}>
                         <img src={profile} alt="" />
-                    </div>
+                    </Link>
                 </div>
             </div>
         </div>

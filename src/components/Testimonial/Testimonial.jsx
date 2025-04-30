@@ -28,11 +28,11 @@ const Testimonial = () => {
     };
 
     return (
-        <div className='max-w-[1200px] mx-auto px-4 py-20 flex flex-row-reverse items-center justify-between'>
+        <div className='max-w-[1200px] mx-auto px-4 py-20 flex flex-col lg:flex-row-reverse items-center justify-between'>
             <div className=''>
                 <img src={container} alt="" />
             </div>
-            <div className='max-w-[490px] '>
+            <div className='max-w-[490px] px-12 lg:px-0 '>
                 <SectionTitle
                     title={"Testimonial"}
                     titleBlack={"What"}
