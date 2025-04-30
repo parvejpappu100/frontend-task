@@ -1,0 +1,98 @@
+[
+    {
+        "_id": "1",
+        "name": "Burger with Emmental Cheese",
+        "image": "https://i.ibb.co.com/XwdZFym/burger.png",
+        "reviews": "85",
+        "ratings": "4.6",
+        "restaurant_name": "Burger King",
+        "price": 49.99,
+        "discount": 25,
+        "delivery_time": "30 min",
+        "delivery_fee": 2
+    },
+    {
+        "_id": "2",
+        "name": "Tandoori Chicken",
+        "image": "https://i.ibb.co.com/xtMhG7wV/chicken.png",
+        "reviews": "85",
+        "ratings": "4.6",
+        "restaurant_name": "Burger King",
+        "price": 49.99,
+        "discount": 33,
+        "delivery_time": "30 min",
+        "delivery_fee": 2
+    },
+    {
+        "_id": "3",
+        "name": "Döner Kebab",
+        "image": "https://i.ibb.co.com/3yrMZmnd/kebab.png",
+        "reviews": "85",
+        "ratings": "4.6",
+        "restaurant_name": "Burger King",
+        "price": 49.99,
+        "discount": 15,
+        "delivery_time": "30 min",
+        "delivery_fee": 2
+    },
+    {
+        "_id": "4",
+        "name": "Pepperoni Pizza Slice",
+        "image": "https://i.ibb.co.com/0prNhBsq/pizza.png",
+        "reviews": "85",
+        "ratings": "4.6",
+        "restaurant_name": "Burger King",
+        "price": 49.99,
+        "discount": 30,
+        "delivery_time": "30 min",
+        "delivery_fee": 2
+    },
+    {
+        "_id": "5",
+        "name": "Burger with Emmental Cheese",
+        "image": "https://i.ibb.co.com/XwdZFym/burger.png",
+        "reviews": "85",
+        "ratings": "4.6",
+        "restaurant_name": "Burger King",
+        "price": 49.99,
+        "discount": 15,
+        "delivery_time": "30 min",
+        "delivery_fee": 2
+    },
+    {
+        "_id": "6",
+        "name": "Tandoori Chicken",
+        "image": "https://i.ibb.co.com/xtMhG7wV/chicken.png",
+        "reviews": "85",
+        "ratings": "4.6",
+        "restaurant_name": "Burger King",
+        "price": 49.99,
+        "discount": 44,
+        "delivery_time": "30 min",
+        "delivery_fee": 2
+    },
+    {
+        "_id": "7",
+        "name": "Döner Kebab",
+        "image": "https://i.ibb.co.com/3yrMZmnd/kebab.png",
+        "reviews": "85",
+        "ratings": "4.6",
+        "restaurant_name": "Burger King",
+        "price": 49.99,
+        "discount": 11,
+        "delivery_time": "30 min",
+        "delivery_fee": 2
+    },
+    {
+        "_id": "8",
+        "name": "Pepperoni Pizza Slice",
+        "image": "https://i.ibb.co.com/0prNhBsq/pizza.png",
+        "reviews": "85",
+        "ratings": "4.6",
+        "restaurant_name": "Burger King",
+        "price": 49.99,
+        "discount": 30,
+        "delivery_time": "30 min",
+        "delivery_fee": 2
+    }
+]

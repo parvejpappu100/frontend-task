@@ -23,7 +23,7 @@ const PopularCategory = () => {
                 titleBlack={"Popular"}
                 titleOrange={"Category"}
             />
-            <div className='max-w-[1400px] mx-auto px-4 my-16 flex items-center gap-4'>
+            <div className='max-w-[1400px] mx-auto px-4 mt-16 flex items-center gap-4'>
                 <button className='cursor-pointer bg-white w-12 h-12 rounded-full lg:flex justify-center items-center shadow-md hidden' onClick={() => swiperRef.current?.slidePrev()}>
                     <FaArrowLeft />
                 </button>
