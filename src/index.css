@@ -2,6 +2,9 @@
 @plugin "daisyui";
 @import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -10,4 +13,8 @@ body {
 
 .rancho-font {
     font-family: 'Rancho', cursive;
+}
+
+.lobster-font {
+    font-family: 'Lobster Two', cursive;
 }
