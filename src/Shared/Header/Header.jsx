@@ -11,9 +11,9 @@ const Header = () => {
             </div>
             <div className='bg-white py-4 shadow'>
                 <div className='flex justify-between max-w-[1200px] mx-auto px-4'>
-                    <div>
+                    <a href='/'>
                         <img src={logo} alt="" />
-                    </div>
+                    </a>
                     <Link to={"/profile/myProfile"}>
                         <img src={profile} alt="" />
                     </Link>
