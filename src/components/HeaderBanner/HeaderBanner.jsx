@@ -5,6 +5,8 @@ import avatar from "../../assets/Avatar.png";
 import restaurant from "../../assets/restaurent.png";
 import { TiStarFullOutline } from "react-icons/ti";
 import { RiPokerHeartsLine } from "react-icons/ri";
+import { FaLocationCrosshairs } from "react-icons/fa6";
+
 
 
 
@@ -19,10 +21,17 @@ const HeaderBanner = () => {
                     <h4 className='font-semibold text-3xl lg:text-6xl my-6'>Let Us <span className='text-[#ED6923] '>Bring</span></h4>
                     <h5 className='text-3xl lg:text-6xl text-[#ED6923] font-semibold'>The Feast to You</h5>
                     <p className='my-8'>Explore hundreds of delicious options from top restaurants and <br />  Enjoy fast, reliable delivery right to you.</p>
-                    <div className='flex items-center mt-4 lg:w-[500px]'>
-                        <input className='bg-white px-3 py-4 border border-[#ED6923] text-[12px] rounded-tl-[6px] rounded-bl-[6px] w-full' placeholder='Enter your location' id="" />
-                        <button className='bg-[#ED6923] text-white px-4 py-[15px] font-semibold rounded-tr-[6px] rounded-br-[6px] cursor-pointer w-[150px]'>Find Food</button>
+                    <div className='relative'>
+                        <div className='flex items-center mt-4 lg:w-[500px]'>
+                            <input className='bg-white px-3 py-4 border border-[#ED6923] text-[12px] rounded-tl-[6px] rounded-bl-[6px] w-full' placeholder='Enter your location' id="" />
+                            <button className='bg-[#ED6923] text-white px-4 py-[15px] font-semibold rounded-tr-[6px] rounded-br-[6px] cursor-pointer w-[150px]'>Find Food</button>
+                        </div>
+                        <div className='flex items-center gap-2 text-[14px] absolute bottom-4 right-36  '>
+                            <FaLocationCrosshairs />
+                            <button className='text-[#ED6923]'> Locate me</button>
+                        </div>
                     </div>
+
                 </div>
                 <div className='lg:relative'>
                     <div>
